@@ -1,0 +1,71 @@
+main {
+    background-image: url("../img/background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    font-family: 'Maven Pro', sans-serif;
+    background-color: rgba(0, 0, 0, 0.6);
+    background-blend-mode: saturation;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgb(179,178,176, 0.6);
+    padding: 40px;
+    border-radius: 5px;
+    width: 45vw;
+    height: 40vh;
+    z-index: 3;
+}
+
+p {
+    text-align: center;
+    font-size: 25px;
+    color: #fff;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+
+input {
+    margin-bottom: 30px;
+    height: 50px;
+    border-radius: 5px;
+    border: 1px solid grey;
+    padding: 10px;
+    background: #fff;
+}
+
+button {
+    height: 70px;
+    background-color: #fff;
+    color: black;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.container {
+    padding-top: 40px;
+}
+
+.contact_list {
+    position: relative;
+    display: inline-flex;
+}
+
+.fas {
+    position: absolute;
+    right: -10px;
+    bottom: -10px;
+    background-color: white;
+    padding: 10px;
+    border-radius: 50%;
+    border: 1px solid black;
+    color: red;
+    
+}
+
